@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $( "a" ).click(function() {
-        $( this ).fadeOut( "slow");
+        $( this ).fadeOut( "slow",function(){
+            $( this ).fadeIn( "slow");
+        });
     });
 });
