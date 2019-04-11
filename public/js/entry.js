@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $( "a" ).click(function() {
-        $( this ).fadeOut( "slow",function(){
+        $( this ).fadeOut( "fast",function(){
             $( this ).fadeIn( "slow");
         });
     });
